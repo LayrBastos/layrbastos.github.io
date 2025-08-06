@@ -1,9 +1,28 @@
 body {
-    background-color: #A4D1EF;
-    color: #42535F;
     text-align: center;
+    background-color: #DCEAF2;
+    color: #103348;
+}
+ul {
+    display: inline-block;
+    text-align: left;
+    list-style-position: inside;
 }
 li {
     padding-bottom: 10px;
     font-size: 20px;
+}
+
+
+
+ul a:link {
+    color: #2D5873;
+}
+
+ul a:hover {
+    color: #90B3C8;
+}
+
+ul a:visited {
+    color: cadetblue;
 }
